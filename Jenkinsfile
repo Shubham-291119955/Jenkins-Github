@@ -11,6 +11,9 @@ node{
 	stage('Monitoring'){
 		sh 'echo DevOps Monitoring Phase'
 	}
+	stage('dev'){
+		sh 'echo DevOps Monitoring Phase'
+	}
 	stage('Security Scanning'){
 		sh 'pwd'
 		sh 'echo I am in Security Scanning Phase'
